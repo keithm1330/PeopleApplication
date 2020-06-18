@@ -20,5 +20,8 @@ curl --location --request GET 'localhost:8080/api/people'
 
 ## React UI
 ** React must be installed on machine To Run the React UI  
-CD into the uiapp folder run 'yarn start'  
+** Run on commandline not powershell  
+** May need to run  npm install react-scripts
+CD into the uiapp folder run 'yarn add bootstrap@4.1.3 react-cookie@3.0.4 react-router-dom@4.3.1 reactstrap@6.5.0'  
+then run 'yarn start'
 App should be running on localhost:3000
