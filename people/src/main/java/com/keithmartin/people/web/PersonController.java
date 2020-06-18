@@ -74,7 +74,7 @@ class PersonController {
 
     @DeleteMapping("/person/{id}")
     public ResponseEntity<?> deletePerson(@PathVariable Long id) {
-        log.info("Request to delete group: {}", id);
+        log.info("Request to delete person: {}", id);
         personRepository.deleteById(id);
         return ResponseEntity.ok().build();
     }
@@ -137,7 +137,7 @@ class PersonController {
 
     @DeleteMapping("/address/{id}")
     public ResponseEntity<?> deleteAddress(@PathVariable Long id) {
-        log.info("Request to delete Address: {}", id);
+        log.info("Request to delete address: {}", id);
         addressRepository.deleteById(id);
         return ResponseEntity.ok().build();
     }
